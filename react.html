@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React - Framework Web</title>
+    <meta name="description" content="Descrição detalhada sobre o framework React para desenvolvimento web.">
+    <meta name="keywords" content="React, Desenvolvimento Web, JavaScript">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <header>
+        <div class="container" data-aos="fade-down">
+            <h1>React</h1>
+            <h2>Uma Biblioteca JavaScript para Criação de Interfaces de Usuário</h2>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html"><img src="favicon.svg" alt="Logo" class="nav-logo" data-aos="fade-down"></a></li>
+                <li><a href="react.html" data-aos="fade-down">React</a></li>
+                <li><a href="react-native.html" data-aos="fade-down">React Native</a></li>
+                <li><button id="toggleTheme" data-aos="fade-down">Dark Mode</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section id="react-details" data-aos="fade-right">
+                <h3>O que é React?</h3>
+                <p>React é uma biblioteca JavaScript de código aberto, mantida pelo Facebook, para a construção de interfaces de usuário. Ele facilita a criação de aplicações de página única ao permitir a construção de componentes de UI de forma modular e reutilizável.</p>
+
+                <h3>Principais Características</h3>
+                <ul data-aos="fade-left">
+                    <li><strong>Virtual DOM:</strong> Permite atualizações eficientes da interface de usuário.</li>
+                    <li><strong>Componentes:</strong> Facilitam a reutilização de código e a organização da interface.</li>
+                    <li><strong>JSX:</strong> Uma sintaxe que combina JavaScript e HTML para simplificar a criação de elementos de UI.</li>
+                </ul>
+
+                <h3>Exemplo de Código em React</h3>
+                <pre><code class="language-js" data-aos="fade-up">
+function App() {
+    return (
+        <div>
+            <h1>Hello, React!</h1>
+        </div>
+    );
+}
+                </code></pre>
+            </section>
+
+            <button id="scrollTopBtn">↑ Topo</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container" data-aos="fade-up">
+            <p>Trabalho de Web 2 - ADS 5° Período</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: true,
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

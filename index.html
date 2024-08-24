@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frameworks Web - React e React Native</title>
+    <meta name="description" content="Comparação detalhada entre os frameworks React e React Native para desenvolvimento web e mobile.">
+    <meta name="keywords" content="React, React Native, Desenvolvimento Web, Desenvolvimento Mobile">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <header>
+        <div class="container" data-aos="fade-down">
+            <h1>Frameworks Web FrontEnd</h1>
+            <h2>React e React Native</h2>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html"><img src="favicon.svg" alt="Logo" class="nav-logo" data-aos="fade-down"></a></li>
+                <li><a href="react.html" data-aos="fade-down">React</a></li>
+                <li><a href="react-native.html" data-aos="fade-down">React Native</a></li>
+                <li><button id="toggleTheme" data-aos="fade-down">Dark Mode</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section id="intro" data-aos="fade-up">
+                <h3>Introdução</h3>
+                <p>Bem-vindo à nossa página sobre os frameworks de frontend React e React Native. Explore abaixo para saber mais sobre cada um deles e como eles podem transformar a maneira como você desenvolve aplicativos web e móveis.</p>
+            </section>
+
+            <section id="comparison" data-aos="zoom-in">
+                <h3>Comparativo: React vs React Native</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Aspecto</th>
+                            <th>React</th>
+                            <th>React Native</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Plataforma</td>
+                            <td>Web</td>
+                            <td>iOS, Android</td>
+                        </tr>
+                        <tr>
+                            <td>Componentes Nativos</td>
+                            <td>Não</td>
+                            <td>Sim</td>
+                        </tr>
+                        <tr>
+                            <td>Curva de Aprendizado</td>
+                            <td>Média</td>
+                            <td>Média</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <button id="scrollTopBtn">↑ Topo</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container" data-aos="fade-up">
+            <p>Trabalho de Web 2 - ADS 5° Período</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: true,
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
